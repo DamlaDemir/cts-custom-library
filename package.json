@@ -2,6 +2,7 @@
   "name": "cts-custom-library",
   "version": "0.1.0",
   "private": false,
+  "description": "This isn't particularly useful, it's used as a demo for how to publish Vue multi components to NPM!",
   "main": "./dist/CtsCustomLibrary.umd.js",
   "unpkg": "dist/CtsCustomLibrary.umd.min.js",
   "scripts": {
