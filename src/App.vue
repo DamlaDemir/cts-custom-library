@@ -2,13 +2,14 @@
   <div id="app">
     <custom-table :data=data :columns=columns></custom-table>
     <custom-button :type=type>Info</custom-button>
+    <custom-clock color="red" />
   </div>
 </template>
 
 <script>
 import CustomTable from './components/CustomTable'
 import CustomButton from './components/CustomButton'
-
+import CustomClock from './components/CustomClock'
 
 export default {
   name: 'App',
@@ -53,7 +54,7 @@ export default {
             }
   },
   components: {
-    CustomTable,CustomButton
+    CustomTable,CustomButton,CustomClock
   }
 }
 </script>

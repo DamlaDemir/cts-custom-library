@@ -27,7 +27,8 @@
   "dependencies": {
     "core-js": "^3.3.2",
     "vue": "^2.6.10",
-    "buefy": "^0.8.6"
+    "buefy": "^0.8.6",
+    "moment": "^2.24.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.0.0",
